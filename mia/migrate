@@ -1,0 +1,9 @@
+
+python manage.py makemigrations xmgr
+
+python manage.py sqlmigrate xmgr 0001
+
+python manage.py migrate
+
+
+

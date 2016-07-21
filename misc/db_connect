@@ -1,0 +1,4 @@
+
+
+psql -h byrd.constantlabs.com -U mia mia
+

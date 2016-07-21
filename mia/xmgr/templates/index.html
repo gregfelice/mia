@@ -1,0 +1,20 @@
+
+<h1>People!!</h1>
+
+{% if people %}
+
+<ul>
+
+  {% for person in people %}
+  
+  <li><a href="{% url 'xmgr:detail' person.id %}}">{{ person.name }}</a></li>
+  
+  {% endfor %}
+
+</ul>
+
+{% else %}
+
+  <p>No people are available.</p>
+
+{% endif %}
